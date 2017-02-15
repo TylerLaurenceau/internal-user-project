@@ -1,9 +1,72 @@
+*{
+  text-align: center;
+}
+
 .title{
   font-size: 35px;
   text-align: center;
   margin-bottom: 40px;
 }
 
+.container{
+  margin-left: 70px;
+  margin: auto;
+  text-align: center;
+}
+
+.personContainer{
+  width: 400px;
+}
+
+li{
+  list-style: none;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 ul{
   float:left;
+  height: 300px;
+  width: 200px;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-right: 50px;
+
+}
+
+.name{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+  padding-left: 75px;
+  border-bottom: 1px solid green;
+}
+
+.email{
+  font-size: 17px;
+  margin-bottom: 25px;
+  opacity: .2;
+
+}
+
+.picture{
+  margin:auto;
+}
+
+b{
+  text-align: center;
+}
+
+.phone{
+  color:transparent;
+  text-shadow: 0 0 5px green;
+}
+
+.phone:hover{
+  color:black;
+}
+
+.adress{
+  margin-bottom: 10px;
 }
