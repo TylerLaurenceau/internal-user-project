@@ -3,10 +3,14 @@
   font-family: Sans-serif;
 }
 
+img{
+  height: 175px;
+}
+
 .title{
   font-size: 35px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .container{
@@ -17,6 +21,7 @@
 
 .personContainer{
   width: 400px;
+  margin-right: 100px;
 }
 
 li{
@@ -55,10 +60,6 @@ ul{
 
 }
 
-.picture{
-  margin:auto;
-}
-
 b{
   text-align: center;
 }
@@ -66,6 +67,7 @@ b{
 .phone{
   color:transparent;
   text-shadow: 0 0 5px green;
+
 }
 
 .phone:hover{
